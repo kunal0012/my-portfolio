@@ -1,16 +1,46 @@
-# React + Vite
+# DevOps Portfolio – React + Netlify
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal DevOps portfolio website built to showcase hands-on projects in **CI/CD, Docker, Cloud, and Infrastructure as Code**.  
+The site is built with React and deployed using a Git-based CI/CD workflow on Netlify.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+🔗 (https://kunal-devops.netlify.app/) 
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧩 Tech Stack
+- **Frontend:** React (Vite), Tailwind CSS
+- **CI/CD & Hosting:** Netlify
+- **Version Control:** Git & GitHub
+- **Animations:** Framer Motion
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📌 Features
+- Clean, professional DevOps-focused UI
+- Projects linked directly to GitHub repositories
+- Strict contact form validation (frontend)
+- Responsive design
+- Git-based automatic deployments via Netlify
+
+---
+
+## 📂 Projects Highlighted
+- **End-to-End CI/CD Pipeline** – Jenkins, SonarQube, Nexus, Docker
+- **Dockerized Application Stack** – Multi-service containerization
+- **Infrastructure as Code** – AWS provisioning using Terraform
+
+Each project links to its respective GitHub repository for full implementation details.
+
+---
+
+## 🔄 CI/CD Workflow
+```text
+GitHub (main branch)
+        ↓
+Netlify Build (npm run build)
+        ↓
+Production Deployment
